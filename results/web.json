@@ -1,0 +1,1354 @@
+{
+  "axeVersion": "4.14.0",
+  "rules": "axe-core default rule set (WCAG 2.x A and AA tags plus best practices); results: violations and \"incomplete\" (needs review)",
+  "viewports": [
+    "390x844 light",
+    "390x844 dark",
+    "1280x900 light",
+    "1280x900 dark"
+  ],
+  "variants": [
+    {
+      "variant": "390-light",
+      "signedOutRedirect": {
+        "requested": "/settings",
+        "landedOn": "/sign-in"
+      },
+      "theme": {
+        "before": "rgb(255, 255, 255)",
+        "chosen": "Dark",
+        "after": "rgb(0, 6, 36)",
+        "backToSystem": "rgb(255, 255, 255)"
+      },
+      "screens": [
+        {
+          "name": "sign-in",
+          "label": "sign-in",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back"
+            ],
+            "landmarks": 1
+          },
+          "path": "/sign-in"
+        },
+        {
+          "name": "sign-in-errors",
+          "label": "sign-in-errors",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back"
+            ],
+            "landmarks": 1
+          },
+          "path": "/sign-in"
+        },
+        {
+          "name": "forgot-password",
+          "label": "forgot-password",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Reset your password"
+            ],
+            "landmarks": 2
+          },
+          "path": "/forgot-password"
+        },
+        {
+          "name": "sign-up",
+          "label": "sign-up",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Create your account"
+            ],
+            "landmarks": 2
+          },
+          "path": "/sign-up"
+        },
+        {
+          "name": "sign-up-errors",
+          "label": "sign-up-errors",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Create your account"
+            ],
+            "landmarks": 2
+          },
+          "path": "/sign-up"
+        },
+        {
+          "name": "onboarding",
+          "label": "onboarding",
+          "violations": [],
+          "incomplete": [],
+          "passes": 30,
+          "inapplicable": 60,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "A starter that works"
+            ],
+            "landmarks": 1
+          },
+          "path": "/onboarding"
+        },
+        {
+          "name": "catalog",
+          "label": "catalog",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog"
+            ],
+            "landmarks": 2
+          },
+          "path": "/catalog"
+        },
+        {
+          "name": "item",
+          "label": "item",
+          "violations": [],
+          "incomplete": [],
+          "passes": 31,
+          "inapplicable": 59,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Aurora Round"
+            ],
+            "landmarks": 3
+          },
+          "path": "/item/gem-001"
+        },
+        {
+          "name": "sync",
+          "label": "sync",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync"
+            ],
+            "landmarks": 3
+          },
+          "path": "/sync"
+        },
+        {
+          "name": "settings",
+          "label": "settings",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 4
+          },
+          "path": "/settings"
+        },
+        {
+          "name": "settings-dark-chosen",
+          "label": "settings-dark-chosen",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 4
+          },
+          "path": "/settings"
+        },
+        {
+          "name": "edit-profile",
+          "label": "edit-profile",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 5
+          },
+          "path": "/edit-profile"
+        },
+        {
+          "name": "notifications",
+          "label": "notifications",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 5
+          },
+          "path": "/notifications"
+        },
+        {
+          "name": "settings-es",
+          "label": "settings-es",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Catálogo de muestra",
+              "Sin conexión y sincronización",
+              "Ajustes",
+              "Perfil",
+              "Apariencia"
+            ],
+            "landmarks": 4
+          },
+          "path": "/settings"
+        }
+      ],
+      "problems": [],
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "hostsContacted": [
+        "127.0.0.1:52906"
+      ]
+    },
+    {
+      "variant": "390-dark",
+      "signedOutRedirect": {
+        "requested": "/settings",
+        "landedOn": "/sign-in"
+      },
+      "theme": {
+        "before": "rgb(0, 6, 36)",
+        "chosen": "Light",
+        "after": "rgb(255, 255, 255)",
+        "backToSystem": "rgb(0, 6, 36)"
+      },
+      "screens": [
+        {
+          "name": "sign-in",
+          "label": "sign-in",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back"
+            ],
+            "landmarks": 1
+          },
+          "path": "/sign-in"
+        },
+        {
+          "name": "sign-in-errors",
+          "label": "sign-in-errors",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back"
+            ],
+            "landmarks": 1
+          },
+          "path": "/sign-in"
+        },
+        {
+          "name": "forgot-password",
+          "label": "forgot-password",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Reset your password"
+            ],
+            "landmarks": 2
+          },
+          "path": "/forgot-password"
+        },
+        {
+          "name": "sign-up",
+          "label": "sign-up",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Create your account"
+            ],
+            "landmarks": 2
+          },
+          "path": "/sign-up"
+        },
+        {
+          "name": "sign-up-errors",
+          "label": "sign-up-errors",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Create your account"
+            ],
+            "landmarks": 2
+          },
+          "path": "/sign-up"
+        },
+        {
+          "name": "onboarding",
+          "label": "onboarding",
+          "violations": [],
+          "incomplete": [],
+          "passes": 30,
+          "inapplicable": 60,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "A starter that works"
+            ],
+            "landmarks": 1
+          },
+          "path": "/onboarding"
+        },
+        {
+          "name": "catalog",
+          "label": "catalog",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog"
+            ],
+            "landmarks": 2
+          },
+          "path": "/catalog"
+        },
+        {
+          "name": "item",
+          "label": "item",
+          "violations": [],
+          "incomplete": [],
+          "passes": 31,
+          "inapplicable": 59,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Aurora Round"
+            ],
+            "landmarks": 3
+          },
+          "path": "/item/gem-001"
+        },
+        {
+          "name": "sync",
+          "label": "sync",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync"
+            ],
+            "landmarks": 3
+          },
+          "path": "/sync"
+        },
+        {
+          "name": "settings",
+          "label": "settings",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 4
+          },
+          "path": "/settings"
+        },
+        {
+          "name": "settings-light-chosen",
+          "label": "settings-light-chosen",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 4
+          },
+          "path": "/settings"
+        },
+        {
+          "name": "edit-profile",
+          "label": "edit-profile",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 5
+          },
+          "path": "/edit-profile"
+        },
+        {
+          "name": "notifications",
+          "label": "notifications",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 390,
+            "innerWidth": 390,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 5
+          },
+          "path": "/notifications"
+        }
+      ],
+      "problems": [],
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "hostsContacted": [
+        "127.0.0.1:52906"
+      ]
+    },
+    {
+      "variant": "1280-light",
+      "signedOutRedirect": {
+        "requested": "/settings",
+        "landedOn": "/sign-in"
+      },
+      "theme": {
+        "before": "rgb(255, 255, 255)",
+        "chosen": "Dark",
+        "after": "rgb(0, 6, 36)",
+        "backToSystem": "rgb(255, 255, 255)"
+      },
+      "screens": [
+        {
+          "name": "sign-in",
+          "label": "sign-in",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back"
+            ],
+            "landmarks": 1
+          },
+          "path": "/sign-in"
+        },
+        {
+          "name": "sign-in-errors",
+          "label": "sign-in-errors",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back"
+            ],
+            "landmarks": 1
+          },
+          "path": "/sign-in"
+        },
+        {
+          "name": "forgot-password",
+          "label": "forgot-password",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Reset your password"
+            ],
+            "landmarks": 2
+          },
+          "path": "/forgot-password"
+        },
+        {
+          "name": "sign-up",
+          "label": "sign-up",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Create your account"
+            ],
+            "landmarks": 2
+          },
+          "path": "/sign-up"
+        },
+        {
+          "name": "sign-up-errors",
+          "label": "sign-up-errors",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Create your account"
+            ],
+            "landmarks": 2
+          },
+          "path": "/sign-up"
+        },
+        {
+          "name": "onboarding",
+          "label": "onboarding",
+          "violations": [],
+          "incomplete": [],
+          "passes": 30,
+          "inapplicable": 60,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "A starter that works"
+            ],
+            "landmarks": 1
+          },
+          "path": "/onboarding"
+        },
+        {
+          "name": "catalog",
+          "label": "catalog",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog"
+            ],
+            "landmarks": 2
+          },
+          "path": "/catalog"
+        },
+        {
+          "name": "item",
+          "label": "item",
+          "violations": [],
+          "incomplete": [],
+          "passes": 31,
+          "inapplicable": 59,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Aurora Round"
+            ],
+            "landmarks": 3
+          },
+          "path": "/item/gem-001"
+        },
+        {
+          "name": "sync",
+          "label": "sync",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync"
+            ],
+            "landmarks": 3
+          },
+          "path": "/sync"
+        },
+        {
+          "name": "settings",
+          "label": "settings",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 4
+          },
+          "path": "/settings"
+        },
+        {
+          "name": "settings-dark-chosen",
+          "label": "settings-dark-chosen",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 4
+          },
+          "path": "/settings"
+        },
+        {
+          "name": "edit-profile",
+          "label": "edit-profile",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 5
+          },
+          "path": "/edit-profile"
+        },
+        {
+          "name": "notifications",
+          "label": "notifications",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 5
+          },
+          "path": "/notifications"
+        }
+      ],
+      "problems": [],
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "hostsContacted": [
+        "127.0.0.1:52906"
+      ]
+    },
+    {
+      "variant": "1280-dark",
+      "signedOutRedirect": {
+        "requested": "/settings",
+        "landedOn": "/sign-in"
+      },
+      "theme": {
+        "before": "rgb(0, 6, 36)",
+        "chosen": "Light",
+        "after": "rgb(255, 255, 255)",
+        "backToSystem": "rgb(0, 6, 36)"
+      },
+      "screens": [
+        {
+          "name": "sign-in",
+          "label": "sign-in",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back"
+            ],
+            "landmarks": 1
+          },
+          "path": "/sign-in"
+        },
+        {
+          "name": "sign-in-errors",
+          "label": "sign-in-errors",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back"
+            ],
+            "landmarks": 1
+          },
+          "path": "/sign-in"
+        },
+        {
+          "name": "forgot-password",
+          "label": "forgot-password",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Reset your password"
+            ],
+            "landmarks": 2
+          },
+          "path": "/forgot-password"
+        },
+        {
+          "name": "sign-up",
+          "label": "sign-up",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Create your account"
+            ],
+            "landmarks": 2
+          },
+          "path": "/sign-up"
+        },
+        {
+          "name": "sign-up-errors",
+          "label": "sign-up-errors",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Welcome back",
+              "Create your account"
+            ],
+            "landmarks": 2
+          },
+          "path": "/sign-up"
+        },
+        {
+          "name": "onboarding",
+          "label": "onboarding",
+          "violations": [],
+          "incomplete": [],
+          "passes": 30,
+          "inapplicable": 60,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "A starter that works"
+            ],
+            "landmarks": 1
+          },
+          "path": "/onboarding"
+        },
+        {
+          "name": "catalog",
+          "label": "catalog",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog"
+            ],
+            "landmarks": 2
+          },
+          "path": "/catalog"
+        },
+        {
+          "name": "item",
+          "label": "item",
+          "violations": [],
+          "incomplete": [],
+          "passes": 31,
+          "inapplicable": 59,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Aurora Round"
+            ],
+            "landmarks": 3
+          },
+          "path": "/item/gem-001"
+        },
+        {
+          "name": "sync",
+          "label": "sync",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync"
+            ],
+            "landmarks": 3
+          },
+          "path": "/sync"
+        },
+        {
+          "name": "settings",
+          "label": "settings",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 4
+          },
+          "path": "/settings"
+        },
+        {
+          "name": "settings-light-chosen",
+          "label": "settings-light-chosen",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(255, 255, 255)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 4
+          },
+          "path": "/settings"
+        },
+        {
+          "name": "edit-profile",
+          "label": "edit-profile",
+          "violations": [],
+          "incomplete": [],
+          "passes": 35,
+          "inapplicable": 55,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 5
+          },
+          "path": "/edit-profile"
+        },
+        {
+          "name": "notifications",
+          "label": "notifications",
+          "violations": [],
+          "incomplete": [],
+          "passes": 34,
+          "inapplicable": 56,
+          "facts": {
+            "overflowX": false,
+            "scrollWidth": 1280,
+            "innerWidth": 1280,
+            "bodyBackground": "rgba(0, 0, 0, 0)",
+            "rootBackground": "rgb(0, 6, 36)",
+            "lang": "en",
+            "title": "Diamond Empire App Starter",
+            "headings": [
+              "Sample catalog",
+              "Offline and sync",
+              "Settings",
+              "Profile",
+              "Appearance"
+            ],
+            "landmarks": 5
+          },
+          "path": "/notifications"
+        }
+      ],
+      "problems": [],
+      "console": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "hostsContacted": [
+        "127.0.0.1:52906"
+      ]
+    }
+  ]
+}

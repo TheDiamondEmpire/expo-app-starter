@@ -1,0 +1,30 @@
+{
+  "command": "npm run measure",
+  "startedAt": "2026-11-03T22:46:56.740Z",
+  "finishedAt": "2026-11-03T22:49:22.252Z",
+  "node": "v25.9.0",
+  "platform": "win32 10.0.26200 x64",
+  "cpuLimit": "at most 2 workers (expo export --max-workers 2, jest --maxWorkers=2)",
+  "browser": {
+    "channel": "chrome",
+    "version": "156.0.8078.80",
+    "driver": "playwright-core 1.64.1",
+    "mode": "headless, one instance reused for every flow"
+  },
+  "tools": {
+    "axe-core": "4.14.0",
+    "adm-zip": "0.6.1"
+  },
+  "app": {
+    "expo": "58.0.22",
+    "expo-router": "58.0.29",
+    "react-native": "0.88.1",
+    "react-native-web": "0.21.4",
+    "typescript": "6.0.3"
+  },
+  "notes": [
+    "No timing or performance score is measured.",
+    "The test server binds 127.0.0.1 on an ephemeral port and is stopped at the end.",
+    "The native bundles are exported but never run; there is no device, simulator or emulator on this machine."
+  ]
+}

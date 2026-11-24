@@ -1,0 +1,16 @@
+{
+  "zip": {
+    "name": "dist/expo-app-starter-0.1.0.zip",
+    "files": 110,
+    "bytes": 312296,
+    "sha256": "4405996e6c7f5f1ffdb9f4c964e4b8188d20ce6e8c1999ea4d7774ad0a198119",
+    "secondBuildSha256": "4405996e6c7f5f1ffdb9f4c964e4b8188d20ce6e8c1999ea4d7774ad0a198119",
+    "deterministic": true
+  },
+  "entryCount": 110,
+  "containsNodeModules": false,
+  "containsResults": false,
+  "containsReadme": false,
+  "containsStartHere": true,
+  "guides": 6
+}

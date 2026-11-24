@@ -1,0 +1,21 @@
+{
+  "paths": {
+    "filesScanned": 125,
+    "bad": []
+  },
+  "author": {
+    "filesChecked": 110,
+    "problems": []
+  },
+  "sourceUrls": {
+    "filesScanned": 62,
+    "unexpectedUrls": [],
+    "filesUsingNetworkApis": [
+      "src/api/http-adapter.ts"
+    ]
+  },
+  "tracking": {
+    "filesScanned": 62,
+    "hits": []
+  }
+}

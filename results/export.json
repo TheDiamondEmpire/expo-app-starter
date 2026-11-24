@@ -1,0 +1,273 @@
+{
+  "web": {
+    "command": "npx expo export --platform web --max-workers 2 --output-dir dist/web",
+    "output": "single-page app (web.output = \"single\" in app.config.ts)",
+    "files": [
+      {
+        "path": "_expo/static/js/web/+not-found-f59e46c532de1b2a7cff12ef85fada68.js",
+        "bytes": 740,
+        "gzipBytes": 498
+      },
+      {
+        "path": "_expo/static/js/web/[id]-f82b1147d859e52d3e63e70116f8baf7.js",
+        "bytes": 1709,
+        "gzipBytes": 895
+      },
+      {
+        "path": "_expo/static/js/web/__common-db9f2c1fcbce6e31eee50bb4b422621e.js",
+        "bytes": 138800,
+        "gzipBytes": 39454
+      },
+      {
+        "path": "_expo/static/js/web/__expo-metro-runtime-97703ae02682710149335928b974f18d.js",
+        "bytes": 10098,
+        "gzipBytes": 3895
+      },
+      {
+        "path": "_expo/static/js/web/_layout-0d5109f1a3ed4b935b53032528311fe4.js",
+        "bytes": 276,
+        "gzipBytes": 218
+      },
+      {
+        "path": "_expo/static/js/web/_layout-102da2b5a0d90e067b0bc09437d1edda.js",
+        "bytes": 1143,
+        "gzipBytes": 544
+      },
+      {
+        "path": "_expo/static/js/web/_layout-7eb193429d4177c25b338d3bb56fd621.js",
+        "bytes": 276,
+        "gzipBytes": 218
+      },
+      {
+        "path": "_expo/static/js/web/_layout-f7d5a0b4567077f3c71d3b78b2ca1aa6.js",
+        "bytes": 2668,
+        "gzipBytes": 1049
+      },
+      {
+        "path": "_expo/static/js/web/catalog-0b0c7a79bdeb9771abe0223817f511aa.js",
+        "bytes": 5816,
+        "gzipBytes": 2338
+      },
+      {
+        "path": "_expo/static/js/web/edit-profile-9577d3c95e1ac2753ad6922d2cb7d1f1.js",
+        "bytes": 1590,
+        "gzipBytes": 775
+      },
+      {
+        "path": "_expo/static/js/web/entry-ff25bc1f2e5d7d868cac8ef0dacefe87.js",
+        "bytes": 1116475,
+        "gzipBytes": 293279
+      },
+      {
+        "path": "_expo/static/js/web/forgot-password-8285133eb3b94e3a0fa2101ccdb52a56.js",
+        "bytes": 1583,
+        "gzipBytes": 814
+      },
+      {
+        "path": "_expo/static/js/web/index-90401958eee46988ecad0a6345ee9da2.js",
+        "bytes": 289,
+        "gzipBytes": 223
+      },
+      {
+        "path": "_expo/static/js/web/notifications-f4319527fd7245907a3489aed4eb7fea.js",
+        "bytes": 900,
+        "gzipBytes": 435
+      },
+      {
+        "path": "_expo/static/js/web/onboarding-1bec33cd8a2a2e15d2a6c1f7f4472e7a.js",
+        "bytes": 1129,
+        "gzipBytes": 623
+      },
+      {
+        "path": "_expo/static/js/web/settings-27bc1442677a346b52e2bdd24badc8b8.js",
+        "bytes": 1959,
+        "gzipBytes": 768
+      },
+      {
+        "path": "_expo/static/js/web/sign-in-f0df2f4d79913e18633a0d59fdc65a09.js",
+        "bytes": 2117,
+        "gzipBytes": 922
+      },
+      {
+        "path": "_expo/static/js/web/sign-up-825d3f2a29325f2728ec2147e4501ed8.js",
+        "bytes": 2322,
+        "gzipBytes": 928
+      },
+      {
+        "path": "_expo/static/js/web/sync-cca7e027b0133f620be60a25faf2b935.js",
+        "bytes": 1536,
+        "gzipBytes": 759
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/arrow_down.017bc6ba3fc25503e5eb5e53826d48a8.png",
+        "bytes": 9456,
+        "gzipBytes": 376
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/error.d1ea1496f9057eb392d5bbf3732a61b7.png",
+        "bytes": 469,
+        "gzipBytes": 492
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/file.19eeb73b9593a38f8e9f418337fc7d10.png",
+        "bytes": 138,
+        "gzipBytes": 153
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/forward.d8b800c443b8972542883e0b9de2bdc6.png",
+        "bytes": 188,
+        "gzipBytes": 211
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/pkg.ab19f4cbc543357183a20571f68380a3.png",
+        "bytes": 364,
+        "gzipBytes": 387
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/back-icon-mask.0a328cd9c1afd0afe8e3b1ec5165b1b4.png",
+        "bytes": 653,
+        "gzipBytes": 676
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/back-icon.35ba0eaec5a4f5ed12ca16fabeae451d.png",
+        "bytes": 207,
+        "gzipBytes": 225
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55.png",
+        "bytes": 220,
+        "gzipBytes": 243
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55@2x.png",
+        "bytes": 334,
+        "gzipBytes": 357
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55@3x.png",
+        "bytes": 502,
+        "gzipBytes": 525
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55@4x.png",
+        "bytes": 645,
+        "gzipBytes": 668
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7.png",
+        "bytes": 141,
+        "gzipBytes": 162
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7@2x.png",
+        "bytes": 201,
+        "gzipBytes": 224
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7@3x.png",
+        "bytes": 266,
+        "gzipBytes": 289
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7@4x.png",
+        "bytes": 332,
+        "gzipBytes": 335
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/react-navigation/elements/search-icon.286d67d3f74808a60a78d3ebf1a5fb57.png",
+        "bytes": 928,
+        "gzipBytes": 951
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/sitemap.412dd9275b6b48ad28f5e3d81bb1f626.png",
+        "bytes": 465,
+        "gzipBytes": 480
+      },
+      {
+        "path": "assets/node_modules/expo-router/assets/unmatched.20e71bdf79e3a97bf55fd9e164041578.png",
+        "bytes": 4752,
+        "gzipBytes": 4723
+      },
+      {
+        "path": "favicon.ico",
+        "bytes": 14510,
+        "gzipBytes": 1403
+      },
+      {
+        "path": "index.html",
+        "bytes": 1423,
+        "gzipBytes": 728
+      },
+      {
+        "path": "metadata.json",
+        "bytes": 49,
+        "gzipBytes": 69
+      }
+    ],
+    "fileCount": 40,
+    "jsFiles": 19,
+    "jsBytes": 1291426,
+    "jsGzipBytes": 348635,
+    "largestJs": {
+      "path": "_expo/static/js/web/entry-ff25bc1f2e5d7d868cac8ef0dacefe87.js",
+      "bytes": 1116475,
+      "gzipBytes": 293279
+    },
+    "cssBytes": 0,
+    "htmlBytes": 1423,
+    "totalBytes": 1327669,
+    "totalGzipBytes": 362312,
+    "overBudget": []
+  },
+  "native": {
+    "command": "npx expo export --platform ios --platform android --max-workers 2 --output-dir dist/native",
+    "note": "The Hermes bytecode bundle each platform would load. These files were produced by the bundler and were NEVER run on a device, simulator or emulator.",
+    "files": 36,
+    "ios": {
+      "bundleFiles": [
+        {
+          "path": "_expo/static/js/ios/entry-f7e15316ca394d4ba56f84931730a12f.hbc",
+          "bytes": 2844562,
+          "gzipBytes": 1235469
+        }
+      ],
+      "bundleBytes": 2844562,
+      "bundleGzipBytes": 1235469,
+      "hermesBytecode": true,
+      "overBudget": false
+    },
+    "android": {
+      "bundleFiles": [
+        {
+          "path": "_expo/static/js/android/entry-dc6ffc2248b069656bc24d2dc99f3834.hbc",
+          "bytes": 2830090,
+          "gzipBytes": 1230560
+        }
+      ],
+      "bundleBytes": 2830090,
+      "bundleGzipBytes": 1230560,
+      "hermesBytecode": true,
+      "overBudget": false
+    },
+    "assets": {
+      "count": 33,
+      "bytes": 26760
+    }
+  },
+  "budgets": {
+    "web": {
+      "jsBytes": 3000000,
+      "jsGzipBytes": 900000,
+      "totalBytes": 3500000,
+      "thirdPartyRequests": 0
+    },
+    "native": {
+      "ios": {
+        "bundleBytes": 9000000
+      },
+      "android": {
+        "bundleBytes": 9000000
+      }
+    }
+  }
+}

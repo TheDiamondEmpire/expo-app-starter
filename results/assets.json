@@ -1,0 +1,63 @@
+{
+  "generator": "tools/generate-assets.mjs (installed Chrome draws the SVG, then screenshots it)",
+  "targets": [
+    "assets/icon.png",
+    "assets/adaptive-icon.png",
+    "assets/splash-icon.png",
+    "assets/favicon.png"
+  ],
+  "files": [
+    {
+      "source": "assets/src/icon.svg",
+      "output": "assets/icon.png",
+      "expectedSize": 1024,
+      "committedBytes": 23314,
+      "committedSha256": "4315dcf02e63f50f06a65b238950057eec338864e1c13dfef9ecdd6a6f91dca1",
+      "regeneratedSha256": "4315dcf02e63f50f06a65b238950057eec338864e1c13dfef9ecdd6a6f91dca1",
+      "identicalToRegeneration": true,
+      "pngSignatureOk": true,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "source": "assets/src/adaptive-foreground.svg",
+      "output": "assets/adaptive-icon.png",
+      "expectedSize": 1024,
+      "committedBytes": 21605,
+      "committedSha256": "2e3fec00cd0027541fd43ec88f309b8809f69a26fedf539b77399a6cd226bdb1",
+      "regeneratedSha256": "2e3fec00cd0027541fd43ec88f309b8809f69a26fedf539b77399a6cd226bdb1",
+      "identicalToRegeneration": true,
+      "pngSignatureOk": true,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "source": "assets/src/splash.svg",
+      "output": "assets/splash-icon.png",
+      "expectedSize": 1024,
+      "committedBytes": 20018,
+      "committedSha256": "aeee7318175c48a9df5cfa634c47c3d6d4e86084cd08d7bab4e9779ec2b2a819",
+      "regeneratedSha256": "aeee7318175c48a9df5cfa634c47c3d6d4e86084cd08d7bab4e9779ec2b2a819",
+      "identicalToRegeneration": true,
+      "pngSignatureOk": true,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "source": "assets/src/icon.svg",
+      "output": "assets/favicon.png",
+      "expectedSize": 48,
+      "committedBytes": 941,
+      "committedSha256": "403d4ebd6454cf554305ad84fd0a5915d431fc4187b8b11401b21de847043d95",
+      "regeneratedSha256": "403d4ebd6454cf554305ad84fd0a5915d431fc4187b8b11401b21de847043d95",
+      "identicalToRegeneration": true,
+      "pngSignatureOk": true,
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "budgets": {
+    "iconBytes": 150000,
+    "splashBytes": 150000
+  }
+}

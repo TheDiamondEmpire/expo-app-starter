@@ -1,0 +1,42 @@
+{
+  "command": "npm run test:record",
+  "finishedAt": "2026-11-03T22:52:02.979Z",
+  "total": {
+    "tests": 280,
+    "passed": 280,
+    "failed": 0
+  },
+  "suites": [
+    {
+      "name": "jest (unit, component, app)",
+      "command": "npm test",
+      "exitCode": 0,
+      "tests": 191,
+      "passed": 191,
+      "failed": 0,
+      "pending": 0,
+      "testFiles": 14,
+      "failing": []
+    },
+    {
+      "name": "static (paths, docs, assets, licences, package)",
+      "command": "npm run test:static",
+      "exitCode": 0,
+      "tests": 78,
+      "passed": 78,
+      "failed": 0,
+      "pending": 0,
+      "failing": []
+    },
+    {
+      "name": "web (axe-core in Chrome on the web export)",
+      "command": "npm run test:web",
+      "exitCode": 0,
+      "tests": 11,
+      "passed": 11,
+      "failed": 0,
+      "pending": 0,
+      "failing": []
+    }
+  ]
+}
